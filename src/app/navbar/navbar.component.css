@@ -1,18 +1,19 @@
 .navbar{
     justify-content: space-between;
     padding-left: 700px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size: 1,5em;
+    font-family: Muli;
+    font-size: 18px;
+    color: #4a4a4a;
+    border-bottom: 2px solid #f5a623;
 }
 mat-label{
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size: 1,5em;
+    font-family: Muli;
+    font-size: 18px;
+    color: #4a4a4a;
 }
 
 span{
-    padding-right: 1em;
+    padding-right: 1em;   
 }
 
 .status{
@@ -22,3 +23,7 @@ span{
 .icons{
     color: gray;
 }
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+  }
