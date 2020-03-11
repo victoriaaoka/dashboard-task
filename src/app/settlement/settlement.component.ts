@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-settlement',
+  selector: 'settlement',
   templateUrl: './settlement.component.html',
   styleUrls: ['./settlement.component.css']
 })
