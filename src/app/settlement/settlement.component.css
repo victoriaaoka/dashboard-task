@@ -1,0 +1,73 @@
+.heading{
+    letter-spacing: 0.49px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.settlement-section{
+    height: 601px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+mat-icon{
+    color: gray;
+    vertical-align: bottom;
+}
+
+.top-menu{
+    padding-bottom: 30px;
+}
+
+.graph-title{
+    color: #8251ab;
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+
+.all-settlement{
+    padding-left: 500px;
+    
+}
+a{
+    text-decoration: none;
+    color: #69aeff;
+}
+#arrow{
+    color: #69aeff;
+    vertical-align: bottom;
+}
+
+.last-updated{
+    color: #9b9b9b;
+    font-size: 14px;
+    
+}
+
+.figures{
+    color: #3b3b3b;
+    font-size: 24px;  
+}
+#available{
+    padding-left: 150px;
+}
+
+#available-figure{
+    padding-left: 90px;
+}
+
+.bottom-titles{
+    color: #8251ab;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.settlement-footer{
+    padding-top: 30px;
+}
+
+
