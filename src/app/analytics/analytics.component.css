@@ -4,7 +4,65 @@
     font-size: 24px;
 }
 
-.analytics-graph{
+.analytics-section{
     height: 601px;
     background-color: #ffffff;
+    margin-top: 15px;
+    padding-left: 30px;
 }
+
+mat-icon{
+    color: gray;
+    vertical-align: bottom;
+}
+
+.top-menu{
+    padding-bottom: 30px;
+}
+
+.title{
+    color: #8251ab;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.all-transactions{
+    padding-left: 500px;
+    
+}
+a{
+    text-decoration: none;
+    color: #69aeff;
+}
+#arrow{
+    color: #69aeff;
+    vertical-align: bottom;
+}
+
+.last-updated{
+    color: #9b9b9b;
+    font-size: 14px;
+    
+}
+
+.figures{
+    color: #3b3b3b;
+    font-size: 24px;  
+}
+#revenue{
+    padding-left: 170px;
+}
+
+.bottom-titles{
+    color: #8251ab;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.analytics-footer{
+    padding-top: 30px;
+}
+
+

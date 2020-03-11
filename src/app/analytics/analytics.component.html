@@ -1,3 +1,49 @@
 <div class="heading">Analytics</div>
 
-<div class="analytics-graph"> ghjk </div>
+<div class="analytics-section">
+
+    <div class="top-menu">
+        <mat-tab-group>
+            <mat-tab label="Today"></mat-tab>
+            <mat-tab label="Last 7 days"></mat-tab>
+            <mat-tab label="Last 30 days"></mat-tab>
+            <mat-tab label="Custom"></mat-tab>
+            <mat-tab label="Last 90 days"></mat-tab>
+          </mat-tab-group>
+    </div>
+
+    <div class="second-menu">
+        <span class="figures">KES 34,050.00</span>
+        <span class="title">TOTAL VOLUME</span>
+    </div>
+
+    <div class="analytics-graph">
+        <div style="display: block">
+            <canvas baseChart width="1099" height="368"
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                [colors]="chartColors">
+            </canvas>
+        </div>
+    </div>
+
+
+    <div class="bottom-titles">
+        <span>ORDERS</span>
+        <span id="revenue">REVENUE</span>
+    </div>
+    <div class="figures">
+        <span >28</span>
+        <span id="revenue">KES 12,670.90</span>
+    </div>
+
+    <div class="analytics-footer">
+        <span class="last-updated">Last updated 5 minutes ago</span>
+        <span class="all-transactions"><a routerLink='#'>See all transactions<mat-icon id="arrow">arrow_right_alt</mat-icon></a></span>
+    </div>
+
+
+</div>
