@@ -1,1 +1,48 @@
-<p>sidebar works!</p>
+<mat-sidenav-container>
+    <mat-sidenav-content>
+        <div class="sidebar-selection">
+            
+                <mat-form-field style="margin-bottom: -2.5em">
+                    <mat-label class="baeh">Baeh Logistics</mat-label>
+                        <mat-select>
+                            <mat-option>
+                                options
+                            </mat-option>
+                        </mat-select>
+                </mat-form-field>
+            
+                <mat-form-field stye="margin-bottom: -2.5em">
+                    <mat-label class="admin">Administrator</mat-label>
+                        <mat-select>
+                            <mat-option>
+                                options
+                            </mat-option>
+                        </mat-select>
+                </mat-form-field>
+        </div>
+        
+        <div class="sidebar-menu">
+
+            <ul>
+                <li><a routerLink="#"><mat-icon>check</mat-icon>  Activate</a></li>
+                <li><a routerLink="#"><mat-icon>assessment</mat-icon>  Overview</a></li>
+                <li class="menu-heading">YOUR BUSINESS</li>
+                <li><a routerLink="#"><mat-icon>add_shopping_cart</mat-icon>  Transactions</a></li>
+                <li><a routerLink="#"><mat-icon>monetization_on</mat-icon>  Settlement</a></li>
+                <li class="menu-heading">RECEIVE PAYMENTS</li>
+                <li><a routerLink="#"><mat-icon>payment</mat-icon>  Payment Settings</a></li>
+                <li><a routerLink="#"><mat-icon>shopping_cart</mat-icon>  Create Payment</a></li>
+                <li><a routerLink="#"><mat-icon>share</mat-icon>  Payment Links</a></li>
+                <li><a routerLink="#"><mat-icon>add_shopping_cart</mat-icon>  Bulk Payments</a></li>  
+                <li><a routerLink="#"><mat-icon>nfc</mat-icon>  My Devices</a></li>  
+                <li class="menu-heading">DEVELOPERS</li>
+                <li><a routerLink="#"><mat-icon>whatshot</mat-icon>  Monitoring</a></li>
+                <li><a routerLink="#"><mat-icon>developer_board</mat-icon>  API Keys</a></li>
+                <li><a routerLink="#"><mat-icon>share</mat-icon>  Events</a></li>
+                <li><a routerLink="#"><mat-icon>access_time</mat-icon>  Logs</a></li>  
+                <li class="settings"><a routerLink="#"><mat-icon>settings</mat-icon>  Settings</a></li> 
+            </ul>
+        </div>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>

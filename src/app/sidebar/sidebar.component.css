@@ -1,0 +1,66 @@
+mat-sidenav-container{
+    background-color: #fefefe;
+    width: 280px;
+    padding: 30px;
+    height: 1596px;;
+    margin-top: -70px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: Muli;
+    font-size: 18px;
+}
+
+.sidebar-selection{
+    padding-left: 15px;
+    border: 2px solid#f6f6f6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.admin{
+    color: #9b9b9b;
+}
+
+.baeh{
+    color: #4a4a4a;
+}
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+
+mat-label{
+    font-family: Muli;
+    font-size: 18px;
+}
+
+a:focus{
+    color:#603b80;
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+mat-icon{
+    vertical-align:bottom;
+}
+
+.menu-heading{
+    padding-top: 36px;
+    color: #4a4a4a;
+    letter-spacing: 0.02px;
+}
+
+.settings{
+    padding-top: 36px;
+}
