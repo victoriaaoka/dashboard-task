@@ -7,12 +7,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { AnalyticsComponent } from './analytics/analytics.component';
+import { SettlementComponent } from './settlement/settlement.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    AnalyticsComponent,
+    SettlementComponent
   ],
   imports: [
     BrowserModule,
