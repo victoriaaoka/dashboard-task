@@ -3,18 +3,27 @@
 <div class="settlement-section">
 
     <div class="top-menu">
-        <mat-tab-group>
-            <mat-tab label="Today"></mat-tab>
-            <mat-tab label="Last 7 days"></mat-tab>
-            <mat-tab label="Last 30 days"></mat-tab>
-            <mat-tab label="Custom"></mat-tab>
-            <mat-tab label="Last 90 days"></mat-tab>
-          </mat-tab-group>
+        <mat-button-toggle-group >
+            <mat-button-toggle value="all">All</mat-button-toggle>
+            <mat-button-toggle value="today">Today</mat-button-toggle>
+            <mat-button-toggle value="last30days">Last 30 days</mat-button-toggle>
+            <mat-button-toggle value="last90days">Last 90 days</mat-button-toggle>
+            <mat-button-toggle value="custom">Custom</mat-button-toggle>
+        </mat-button-toggle-group>
+        <mat-form-field>
+            <mat-label class="currency-selection">KES</mat-label>
+            <mat-select>
+              <mat-option value="option">Options</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-icon class="download-icon">arrow_downward</mat-icon>
     </div>
 
     <div class="second-menu">
         <span class="figures">KES 560,987.00</span>
         <span class="graph-title">TOTAL AVAILABLE BALANCE</span>
+        <span><a class="dates-button" mat-raised-button routerLink="#">JUN 2 <mat-icon id="arrow">arrow_right</mat-icon> JUL 1 2018</a></span>
     </div>
 
     <div class="settlement-graph">
