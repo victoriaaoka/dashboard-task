@@ -14,7 +14,7 @@ export class AnalyticsComponent implements OnInit {
 
   public lineChartLabels = ['Jun 2', 'Jun 3', 'Jun 4', 'Jun 5', 'Jun 6', 'Jun 7', 'Jun8'];
   public lineChartType = 'line';
-  public lineChartLegend = true;
+  public lineChartLegend = false;
 
   public lineChartData = [
     {data: [1000, 34000, 20000, 10000, 5000, 12000, 25000, 40000], label: 'TOTAL VOLUME'},
