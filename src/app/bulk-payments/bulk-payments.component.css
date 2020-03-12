@@ -17,9 +17,6 @@ table {
   color: #603b80;
   font-weight: bold;
 }
-mat-icon{
-  vertical-align: bottom;
-}
 
 .download{
   color: #888888;
@@ -27,7 +24,11 @@ mat-icon{
 
 mat-toolbar{
   background-color:#f5e2c7;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+#download-arrow{
+  vertical-align: bottom;
 }
 
 .warning{
@@ -42,4 +43,76 @@ mat-toolbar{
 
 th{
   background-color: #f1f1f1;
+}
+
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline;
+  padding-right: 20px;
+}
+
+mat-button-toggle{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  font-family: Muli;
+  font-size: 14px;
+  
+}
+
+mat-button-toggle-group{
+  border: none;
+}
+
+.upload-button{
+  color: #ffffff;
+  background-color: #603b80;
+  margin-left: 20px;
+  border-radius: 20px;
+  font-family: Muli;
+  font-size: 14px;
+}
+.download-button{
+  color: #603b80;;
+  background-color: #ffffff;
+  margin-left: 80px;
+  border-radius: 20px;
+  font-family: Muli;
+  font-size: 14px;
+}
+
+mat-form-field{
+  padding: 10px;
+}
+
+mat-label{
+  font-family: Muli;
+  font-size: 12px;
+}
+#search-icon{
+  color: #9b9b9b;
+}
+
+a{
+  text-decoration: none;
+}
+
+.docs{
+  color: #69aeff;
+  font-family: Muli;
+  font-size: 14px;
+  margin-left: 490px;
+}
+
+#arrow{
+  vertical-align: middle;
+}
+
+.clear-button{
+  color: #9b9b9b;
+  font-family: Muli;
+  font-size: 14px;
 }

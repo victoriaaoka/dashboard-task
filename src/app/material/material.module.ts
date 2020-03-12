@@ -8,6 +8,10 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 
 const material = [
@@ -19,7 +23,11 @@ const material = [
   MatTabsModule,
   MatChipsModule,
   MatTableModule,
-  MatPaginatorModule
+  MatPaginatorModule,
+  MatButtonToggleModule,
+  MatButtonModule,
+  MatFormFieldModule,
+  MatInputModule
 ]
 
 @NgModule({

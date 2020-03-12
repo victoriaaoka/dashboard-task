@@ -3,9 +3,31 @@
 
     <mat-toolbar>
         <mat-toolbar-row>
-          <span class="warning"><mat-icon id="warning-icon">error</mat-icon>You are in Sandbox mode. <b>Activate your account</b> to start making live transactions and accept real payments!</span>
+          <span class="warning"><mat-icon id="warning-icon">error</mat-icon>You are in Sandbox mode. <strong>Activate your account</strong> to start making live transactions and accept real payments!</span>
         </mat-toolbar-row>
     </mat-toolbar>
+
+    <div class="menu">
+        <mat-button-toggle-group >
+            <mat-button-toggle value="all">All</mat-button-toggle>
+            <mat-button-toggle value="today">Today</mat-button-toggle>
+            <mat-button-toggle value="last30days">Last 30 days</mat-button-toggle>
+            <mat-button-toggle value="last90days">Last 90 days</mat-button-toggle>
+            <mat-button-toggle value="custom">Custom</mat-button-toggle>
+        </mat-button-toggle-group>
+        <a class="download-button" mat-raised-button routerLink="#">Download Sample File</a>   
+        <a class="upload-button" mat-raised-button routerLink="#">Upload file</a>     
+    </div>
+
+    <div class="second-menu">
+        <mat-form-field appearance="outline">
+            <mat-label>Search by batch ID or filename</mat-label>
+            <input matInput placeholder="Placeholder">
+            <mat-icon id="search-icon" matSuffix>search</mat-icon>
+        </mat-form-field>
+        <button class="clear-button" mat-button>Clear</button>
+        <span class="docs"><a routerLink='#'>Documentation<mat-icon id="arrow">arrow_right_alt</mat-icon></a></span>
+    </div>
 
     <div class="mat-elevation-z8 payments-table" >
         <table mat-table [dataSource]="dataSource">
@@ -45,7 +67,7 @@
         <!-- Action Column -->
         <ng-container matColumnDef="action" >
             <th mat-header-cell *matHeaderCellDef> ACTION </th>
-            <td class="download"mat-cell *matCellDef="let element"> <mat-icon>arrow_downward</mat-icon> Download</td>
+            <td class="download"mat-cell *matCellDef="let element"> <mat-icon id="download-arrow">arrow_downward</mat-icon> Download</td>
         </ng-container>
     
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
