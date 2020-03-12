@@ -12,17 +12,17 @@
     padding-left: 15px;
 }
 
+.second-menu{
+    padding-top: 20px;
+}
+
 .settlement-graph{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 mat-icon{
     color: gray;
     vertical-align: bottom;
-}
-
-.top-menu{
-    padding-bottom: 10px;
 }
 
 .graph-title{
@@ -33,7 +33,7 @@ mat-icon{
 }
 
 .all-settlement{
-    margin-left: 700px;
+    margin-left: 500px;
     
 }
 a{
@@ -42,7 +42,7 @@ a{
 }
 #arrow{
     color: #69aeff;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .last-updated{
@@ -65,13 +65,13 @@ a{
 
 .bottom-titles{
     color: #8251ab;
-    padding-top: 10px;
+    padding-top: 20px;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .settlement-footer{
-    padding-top: 7px;
+    padding-top: 50px;
 }
 
 
