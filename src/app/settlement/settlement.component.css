@@ -13,7 +13,7 @@
 }
 
 .settlement-graph{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 mat-icon{
@@ -22,7 +22,7 @@ mat-icon{
 }
 
 .top-menu{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .graph-title{
@@ -65,13 +65,13 @@ a{
 
 .bottom-titles{
     color: #8251ab;
-    padding-top: 30px;
+    padding-top: 10px;
     font-weight: bold;
     padding-bottom: 10px;
 }
 
 .settlement-footer{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 
