@@ -11,6 +11,10 @@
     padding-left: 30px;
 }
 
+.analytics-graph{
+    padding-top: 30px;
+}
+
 mat-icon{
     color: gray;
     vertical-align: bottom;
@@ -54,11 +58,15 @@ a{
     padding-left: 170px;
 }
 
+#revenue-figure{
+    padding-left: 200px;
+}
+
 .bottom-titles{
     color: #8251ab;
     padding-top: 50px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .analytics-footer{
