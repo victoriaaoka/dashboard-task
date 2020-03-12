@@ -7,30 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettlementComponent implements OnInit {
 
+  public chartColors: any[];
+
   public barChartOptions = {
     scaleShowVerticalLines: false,
     responsive: true,
   };
 
-  public barChartLabels = ['Jun 2', 'Jun 8', 'Jun 14', 'Jun 20', 'Jun 26', 'Jul 1'];
+  public barChartLabels = ['Jun 2','','','','','', 'Jun 8','','','','','', 'Jun 14','','','','','','Jun 20','','','','','','Jun 26','','','','','Jul 1'];
   public barChartType = 'bar';
-  public barChartLegend = true;
+  public barChartLegend = false;
 
   public barChartData = [
-    {data: [1000, 34000, 20000, 10000, 5000, 12000, 25000, 40000], label: 'TOTAL AVAILABLE BALANCE'},
+    {data: [
+            35000, 20000, 35000, 38000, 15000, 35000, 18000, 35000, 20000,35000,
+            38000, 35000, 18000, 25000, 35000, 20000, 18000, 38000, 20000, 35000,
+            35000, 18000,35000, 38000, 18000, 18000, 35000, 20000, 35000, 20000, 5000
+          ], label: 'TOTAL AVAILABLE BALANCE'},
   ];
-
-  for(){
-
-  }
-  public chartColors: any[] = [
-    { 
-      backgroundColor:[]
-    }];
-
+  
   constructor() { }
 
   ngOnInit(): void {
+    for( let d of this.barChartData[0].data){
+      this.chartColors = [
+        { 
+          backgroundColor:'#aed3ff'
+        }];
+    }
   }
 
 }

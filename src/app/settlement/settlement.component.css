@@ -12,6 +12,10 @@
     padding-left: 15px;
 }
 
+.settlement-graph{
+    padding-top: 30px;
+}
+
 mat-icon{
     color: gray;
     vertical-align: bottom;
@@ -61,9 +65,9 @@ a{
 
 .bottom-titles{
     color: #8251ab;
-    padding-top: 50px;
+    padding-top: 30px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .settlement-footer{
