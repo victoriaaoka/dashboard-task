@@ -2,6 +2,7 @@
   letter-spacing: 0.49px;
   color: rgba(0, 0, 0, 0.6);
   font-size: 24px;
+  margin-top: 20px;
 }
 
 table {
@@ -9,7 +10,10 @@ table {
     margin-top: 0px;
     font-family: Muli;
     font-size: 14px;
-    margin-bottom: 50px;
+}
+
+.payments-table{
+  margin-bottom: 50px;
 }
 
 .batchid{
@@ -78,7 +82,7 @@ mat-button-toggle-group{
 .download-button{
   color: #603b80;;
   background-color: #ffffff;
-  margin-left: 200px;
+  margin-left: 400px;
   border-radius: 20px;
   font-family: Muli;
   font-size: 14px;
@@ -104,7 +108,7 @@ a{
   color: #69aeff;
   font-family: Muli;
   font-size: 14px;
-  margin-left: 700px;
+  margin-left: 800px;
 }
 
 #arrow{
