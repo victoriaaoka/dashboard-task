@@ -32,7 +32,7 @@ mat-icon{
 }
 
 .all-transactions{
-    padding-left: 500px;
+    padding-left: 650px;
     
 }
 a{
@@ -66,10 +66,10 @@ a{
     color: #8251ab;
     padding-top: 10px;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .analytics-footer{
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
