@@ -1,0 +1,57 @@
+<div class="content">
+    <div class="heading">Bulk Payments</div>
+
+    <mat-toolbar>
+        <mat-toolbar-row>
+          <span class="warning"><mat-icon id="warning-icon">error</mat-icon>You are in Sandbox mode. <b>Activate your account</b> to start making live transactions and accept real payments!</span>
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+    <div class="mat-elevation-z8 payments-table" >
+        <table mat-table [dataSource]="dataSource">
+
+        <!-- Batch ID Column -->
+        <div>
+        <ng-container matColumnDef="batchid">
+            <th mat-header-cell *matHeaderCellDef> BATCH ID </th>
+            <td class="batchid" mat-cell *matCellDef="let element"> {{element.batchid}} </td>
+        </ng-container>
+        </div>
+    
+        <!-- File Name Column -->
+        <ng-container matColumnDef="fileName">
+            <th mat-header-cell *matHeaderCellDef> FILE NAME </th>
+            <td mat-cell *matCellDef="let element"> {{element.fileName}} </td>
+        </ng-container>
+    
+        <!-- Payment Plan Column -->
+        <ng-container matColumnDef="paymentPlan">
+            <th mat-header-cell *matHeaderCellDef> PAYMENT PLAN </th>
+            <td mat-cell *matCellDef="let element"> {{element.paymentPlan}} </td>
+        </ng-container>
+    
+        <!-- Upload Date Column -->
+        <ng-container matColumnDef="uploadDate">
+            <th mat-header-cell *matHeaderCellDef> UPLOAD DATE </th>
+            <td mat-cell *matCellDef="let element"> {{element.uploadDate}} </td>
+        </ng-container>
+
+        <!-- Payees Column -->
+        <ng-container matColumnDef="payees">
+            <th mat-header-cell *matHeaderCellDef> PAYEES </th>
+            <td mat-cell *matCellDef="let element"> {{element.payees}} </td>
+        </ng-container>
+
+        <!-- Action Column -->
+        <ng-container matColumnDef="action" >
+            <th mat-header-cell *matHeaderCellDef> ACTION </th>
+            <td class="download"mat-cell *matCellDef="let element"> <mat-icon>arrow_downward</mat-icon> Download</td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    
+        <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+    </div>
+   </div> 

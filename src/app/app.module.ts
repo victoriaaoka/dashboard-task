@@ -10,6 +10,7 @@ import { MaterialModule } from './material/material.module';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { SettlementComponent } from './settlement/settlement.component';
 import { ChartsModule } from 'ng2-charts';
+import { BulkPaymentsComponent } from './bulk-payments/bulk-payments.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ChartsModule } from 'ng2-charts';
     NavbarComponent,
     SidebarComponent,
     AnalyticsComponent,
-    SettlementComponent
+    SettlementComponent,
+    BulkPaymentsComponent
   ],
   imports: [
     BrowserModule,

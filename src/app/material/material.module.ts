@@ -6,6 +6,8 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 const material = [
@@ -15,7 +17,9 @@ const material = [
   MatSelectModule,
   MatSidenavModule,
   MatTabsModule,
-  MatChipsModule
+  MatChipsModule,
+  MatTableModule,
+  MatPaginatorModule
 ]
 
 @NgModule({

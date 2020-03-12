@@ -1,0 +1,45 @@
+.heading{
+  letter-spacing: 0.49px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  margin-top: -50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 0px;
+    font-family: Muli;
+    font-size: 14px;
+}
+
+.batchid{
+  font-family: 'Courier New', Courier;
+  color: #603b80;
+  font-weight: bold;
+}
+mat-icon{
+  vertical-align: bottom;
+}
+
+.download{
+  color: #888888;
+}
+
+mat-toolbar{
+  background-color:#f5e2c7;
+  margin-top: 20px;
+}
+
+.warning{
+  font-family: Muli;
+  font-size: 14px;
+}
+
+#warning-icon{
+  color: #e6ae5f;
+  vertical-align: middle;
+}
+
+th{
+  background-color: #f1f1f1;
+}
