@@ -2,6 +2,8 @@
     letter-spacing: 0.49px;
     color: rgba(0, 0, 0, 0.6);
     font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .analytics-section{
@@ -32,7 +34,7 @@ mat-icon{
 }
 
 .all-transactions{
-    margin-left: 500px;
+    margin-left: 400px;
     
 }
 a{
@@ -66,10 +68,11 @@ a{
     color: #8251ab;
     padding-top: 10px;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .analytics-footer{
-    padding-top: 7px;
+    padding-top: 50px;
 }
 
