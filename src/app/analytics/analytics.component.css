@@ -2,8 +2,7 @@
     letter-spacing: 0.49px;
     color: rgba(0, 0, 0, 0.6);
     font-size: 24px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .analytics-section{
@@ -14,7 +13,7 @@
 }
 
 .analytics-graph{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 mat-icon{
@@ -26,11 +25,14 @@ mat-icon{
     padding-bottom: 10px;
 }
 
+.second-menu{
+    padding-top: 20px;
+}
+
 .title{
     color: #8251ab;
     font-weight: bold;
     padding-left: 10px;
-
 }
 
 .all-transactions{
@@ -43,7 +45,7 @@ a{
 }
 #arrow{
     color: #69aeff;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .last-updated{
